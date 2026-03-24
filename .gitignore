@@ -1,0 +1,46 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Streamlit / local metadata
+.streamlit/
+
+# OS / editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Local databases / generated data
+data/db/
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage / test artifacts
+.coverage
+pytest_cache/
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
